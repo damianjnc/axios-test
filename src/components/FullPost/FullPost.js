@@ -6,8 +6,7 @@ class FullPost extends Component {
     state = {
         selectedPosts: null
     }
-    getProps = ()=>{
-    this.setState({selectedPosts: this.props.selectedPost})}
+
     render () {
 
         console.log(this.state.selectedPosts)
